@@ -33,14 +33,9 @@ php artisan make:model Product -m
 # Step 2: Migrate the Database
 php artisan migrate
 
-# Step 3: Create the Product Factory
-php artisan make:factory ProductFactory --model=Product
+# Step 3: sql insert of database
 
-# Step 4: Create the Product Seeder
-php artisan make:seeder ProductSeeder
 
-# Step 5: Run the Seeder
-php artisan db:seed
 
 
 #php artisan make:controller ProductController
